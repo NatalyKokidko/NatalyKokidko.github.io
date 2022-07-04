@@ -9,7 +9,7 @@ main {
 }
 
 body {
-  background: rgb(248, 250, 251);
+  background: #C8E6C9;
 }
 
 body, p, button, input {
@@ -51,16 +51,16 @@ a:hover {
 .avatar img {
   width: 200px;
   heigt: 200px;
-  border: 10px solid #fff;
   object-fit: cover;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
 }
 
 .avatar-small {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
-  border-radius: 30px;
+  border-radius: 50%;
+  border: 10px solid #fff;
 }
 
 .avatar-small img {
@@ -124,7 +124,7 @@ h5 {
 .button {
   cursor: pointer;
   color: rgb(51,51,51);
-  border: 1px solid rgb(238, 238, 238);
+  border: 2px solid #607D8B;
   background: #fbd0a1;
   padding: 0 20px;
   height: 50px;
@@ -132,6 +132,7 @@ h5 {
   line-height: 47px;
   font-size: 16px;
   min-width: 160px;
+
  }
 .button svg {
   fill: rgb(51,51,51);
@@ -154,6 +155,8 @@ h5 {
   background: #fff;
   border-radius: 30px;
   padding: 30px;
+  border: 5px solid #fbd0a1;
+
  }
 .card p {
   font-weight: 400;
